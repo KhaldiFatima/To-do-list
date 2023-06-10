@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>To Do List </title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- <meta http-equiv="refresh" content="2"> -->
+</head>
+<body>
+  <div class="container ">
+    <!-- head -->
+  <div class="container-head">
+    <div class="title hd">
+      <h1 title="To Do List">To Do List <i class="fa-solid fa-list-check"></i> 
+      <!-- <i class="fa-solid fa-list-check"></i> -->
+      </h1>
+    </div>
+    <div class="container-quote ">
+      <q id="quote">Our Quote</q>
+    </div>
+    <div class="hd">
+      <form action="">
+        <input type="date" name="" id="date" value="2021-10-10"> 
+      </form>
+    </div>
+  </div>
+  <!-- body -> to-do-list -->
+  <div class="container-list " id="to-do-list">
+      <!-- add -->
+      <div id="add-todo">  
+          <input type="text" name="add-to-do" id="add-text" placeholder="Tasks">
+          <button type="submit" id="add-btn" class="btn" >Add</button>
+      </div>
+      <!-- To-do -->
+      <div id="list">
+        <div class ="tasks" >
+
+        </div>
+        <!-- basic-->
+    <div class="container-basic">
+      
+    <div class="basic prayers">
+      <p>Prayers</p>
+      <div class="basic-icon">
+        <i class="fa-regular fa-circle-xmark"></i>
+        <i class="fa-regular fa-circle-xmark"></i>
+        <i class="fa-regular fa-circle-xmark"></i>
+        <i class="fa-regular fa-circle-xmark"></i>
+        <i class="fa-regular fa-circle-xmark"></i>
+      </div>
+    </div>
+    <div id="sportandread">
+    <div class=" basic sport">
+      <p>Sport</p>
+      <i class="fa-regular fa-circle-xmark basic-icon"></i>
+    </div>
+    <div class="basic read">
+      <p>Read</p>
+      <i class="fa-regular fa-circle-xmark basic-icon"></i>
+    </div>
+    </div>
+  </div>
+      </div>
+
+
+  </div>
+
+
+  <!-- footer  -->
+  <div class="container-footer  ">
+      <div class="quote">
+        <button class="quote-btn">Choise your Quote</button>
+      </div>
+      <div class="btn-end">
+        <button class="btn" id="save-btn" type="submit">Save</button>
+        <button class="btn" id="rest-btn" type="Rest">Rest</button>
+      </div>
+    </div>
+    <footer>
+        <p id="text-footer">
+          Second project with : <strong>TG Academy</strong>
+        </p>
+    </footer> 
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
